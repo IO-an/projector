@@ -1,0 +1,44 @@
+{
+  "name": "@projector/api",
+  "description": "API of projector",
+  "author": "Ivan Vasiliev <va3iliev.ip@gmail.com>",
+  "homepage": "https://github.com/IO-an/projector/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/io-an/projector.git",
+    "directory": "apps/api"
+  },
+  "bugs": {
+    "url": "https://github.com/IO-an/projector/issues",
+    "email": "va3iliev.ip@gmail.com"
+  },
+  "keywords": [
+    "project",
+    "team"
+  ],
+  "private": true,
+  "engineStrict": true,
+  "packageManager": "npm@11.13.0",
+  "engines": {
+    "node": "~24.16.0",
+    "npm": "~11.13.0"
+  },
+  "scripts": {
+    "start": "",
+    "build": "",
+    "lint": "npm-run-all --parallel lint:code lint:types lint:format",
+    "lint:code": "",
+    "lint:types": "",
+    "lint:format": "",
+    "lint:fix": "npm-run-all --parallel lint:code:fix lint:format:fix",
+    "lint:code:fix": "",
+    "lint:format:fix": ""
+  },
+  "dependencies": {
+    "@projector/utils": "*",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}

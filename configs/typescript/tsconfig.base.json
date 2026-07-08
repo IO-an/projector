@@ -1,0 +1,9 @@
+{
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "strict": true,
+
+    "target": "esnext",
+    "module": "esnext"
+  }
+}

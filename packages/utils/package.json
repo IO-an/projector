@@ -1,0 +1,49 @@
+{
+  "name": "@projector/utils",
+  "description": "Project utils",
+  "author": "Ivan Vasiliev <va3iliev.ip@gmail.com>",
+  "homepage": "https://github.com/IO-an/projector/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/io-an/projector.git",
+    "directory": "packages/utils"
+  },
+  "bugs": {
+    "url": "https://github.com/IO-an/projector/issues",
+    "email": "va3iliev.ip@gmail.com"
+  },
+  "keywords": [
+    "project",
+    "team"
+  ],
+  "private": true,
+  "engineStrict": true,
+  "packageManager": "npm@11.13.0",
+  "engines": {
+    "node": "~24.16.0",
+    "npm": "~11.13.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "npm-run-all --parallel lint:code lint:types lint:format",
+    "lint:code": "",
+    "lint:types": "",
+    "lint:format": "",
+    "lint:fix": "npm-run-all --parallel lint:code:fix lint:format:fix",
+    "lint:code:fix": "",
+    "lint:format:fix": ""
+  }
+}
